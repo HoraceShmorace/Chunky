@@ -1,0 +1,25 @@
+{
+  "name": "docx-to-rag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "ingest": "node src/index.js",
+    "pc-create": "node src/pinecone-create.js",
+    "pc-upload": "node src/pinecone-upload.js",
+    "pc-search": "node src/pinecone-search.js",
+    "pc-delete": "node src/pinecone-delete.js",
+    "local-search": "node src/local-search.js",
+    "rag": "node src/rag.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^5.1.2",
+    "dotenv": "^16.5.0",
+    "mammoth": "^1.9.0",
+    "openai": "^4.96.0"
+  }
+}

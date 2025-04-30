@@ -1,0 +1,8 @@
+.DS_Store
+.env
+files/in/*
+files/out/*
+files/processed/*
+node_modules
+src/lib/state.json
+!.gitkeep
