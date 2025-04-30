@@ -1,7 +1,7 @@
 # Chunky
 ![Chunky](./image.png)
 ## From DOCX to RAG
-A command-line Node.js app that converts DOCX files into OpenAI embeddings, stores them in Pinecone, and provides semantic (vector) search and Retrieval-Augmented Generation (RAG). Ask questions and get precise, context-aware GPT answers generated directly from your own content. This proof of concept features robust error handling with automatic retries, detailed state tracking, and batch processing for reliability and speed.
+A command-line Node.js app that semantically chunks and converts DOCX files into OpenAI embeddings, stores them in Pinecone, and provides semantic (vector) search and Retrieval-Augmented Generation (RAG). Ask questions and get precise, context-aware GPT answers generated directly from your own content. This proof of concept features robust error handling with automatic retries, detailed state tracking, and batch processing for reliability and speed.
 
 This will quickly evolve into a full and robust RAG service using AWS serverless technologies and capable of processing numerous file types sourced on-disk or in the cloud. Give me a minute.
 
